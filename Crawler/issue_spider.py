@@ -126,7 +126,8 @@ def check_input(data, host):
 def get_api_url(repo_url):
     if "github" in repo_url:
         api_url = f'https://api.github.com/repos/{repo_url.replace("https://github.com/", "")}/issues'
-        par = '?access_token=###&state=all&per_page=50&page={}'.replace("###", persontoken.get_token())
+        # par = '?access_token=###&state=all&per_page=50&page={}'.replace("###", persontoken.get_token())
+        par = '?state=all&per_page=50&page={}'
         return api_url + par, GITHUB_HOST
     else:
         # considered as gitlab

@@ -25,3 +25,4 @@ Fuzzing Navigation And Positioning Software
 
 - [AFLplusplus](https://github.com/AFLplusplus/AFLplusplus)
 - [RVFuzzer: Finding Input Validation Bugs in Robotic Vehicles through Control-Guided Testing](https://www.usenix.org/system/files/sec19-kim.pdf)
+- [fuzzing-survey-TSE2019](./Reference/fuzzing-survey-TSE2019.pdf)
